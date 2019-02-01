@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import rospy
 from sensor_msgs.msg import Image
 from mask_rcnn.client import Client
