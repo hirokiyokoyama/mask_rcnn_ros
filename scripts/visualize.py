@@ -27,5 +27,5 @@ def cb(imgmsg):
     cv2.imshow('original', image)
     cv2.waitKey(1)
 
-rospy.Subscriber('/hsrb/head_rgbd_sensor/rgb/image_rect_color', Image, cb)
+rospy.Subscriber('image', Image, cb)
 rospy.spin()
